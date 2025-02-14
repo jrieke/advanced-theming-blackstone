@@ -1,0 +1,30 @@
+[server]
+enableStaticServing = true
+
+[theme]
+# Blackstone
+# What's missing/doesn't look great:
+# - serif font (Sanomat) for headings and a few things like st.metric
+# - if we do a black border color, then sidebar border color would need to be separate, probably white
+# - sidebar link color would need to be separate, white
+# - selectbox hover color is not visible
+# - code background is not visible
+# - dataframe border color is quite light, might want to make darker
+primaryColor = "#000000"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#ffffff"
+sidebarBackgroundColor = "#000000"
+sidebarSecondaryBackgroundColor = "#000000"
+sidebarTextColor = "#ffffff"
+textColor = "#000000"
+linkColor = "#000000"
+borderColor = "#CBCED7"
+showBorderAroundInputs = true
+roundness = 0
+font = "GuardianSans"
+
+[[theme.fontFaces]]
+url = "http://localhost:8502/app/static/guardian-sans/GuardianSansRegular.otf"
+family = "GuardianSans"
+style = "normal"
+
