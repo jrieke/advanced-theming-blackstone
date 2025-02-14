@@ -24,7 +24,7 @@ roundness = 0
 font = "GuardianSans"
 
 [[theme.fontFaces]]
-url = "http://localhost:8502/app/static/guardian-sans/GuardianSansRegular.otf"
+url = "app/static/guardian-sans/GuardianSansRegular.otf"
 family = "GuardianSans"
 style = "normal"
 
