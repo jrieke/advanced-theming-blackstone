@@ -5,9 +5,10 @@ enableStaticServing = true
 # Blackstone
 # What's missing/doesn't look great:
 # - serif font (Sanomat) for headings and a few things like st.metric
-# - if we do a black border color, then sidebar border color would need to be separate, probably white
+# - finding a border color that works both for the main area and the sidebar was tricky -> would be nice to separate these out
 # - sidebar link color would need to be separate, white
-# - selectbox hover color is not visible
+# - selectbox hover color is not visible. would also need to be set separately in main area and sidebar
+# - black primary color leads to problems in the sidebar, e.g. button borders disappear. maybe we'd need a separate primary color in the sidebar (white)?
 # - code background is not visible
 # - dataframe border color is quite light, might want to make darker
 primaryColor = "#000000"
