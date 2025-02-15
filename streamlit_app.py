@@ -22,7 +22,7 @@ if st.checkbox("Enable CSS hacks", True):
             border: 1px solid #ffffff;
         }
         
-        p, .stText {
+        p, .stText, .stSelectbox div, .stMultiSelect div, .stMultiSelect span, .stDateInput input, .stTimeInput div, .stTextInput input, .stTextArea textarea, .stFileUploader, .stFileUploader button {
             font-weight: 300 !important;
         }
         
