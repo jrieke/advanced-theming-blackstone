@@ -9,8 +9,53 @@ import pydeck as pdk
 import streamlit as st
 
 st.set_page_config("Blackstone theme", "◼️", initial_sidebar_state="collapsed")
-st.logo("blackstone_logo.png")
+st.logo("https://upload.wikimedia.org/wikipedia/commons/5/5b/The_Blackstone_Group_logo_%282%29.svg", size="large")
 st.title("Blackstone theme")
+
+if st.checkbox("Enable CSS hacks", True):
+    st.html(
+        """
+        <style>
+        
+        /* Could be done via a better image, don't need CSS/theming */
+        .stLogo {
+            border: 1px solid #ffffff;
+        }
+        
+        p, .stText {
+            font-weight: 300 !important;
+        }
+        
+        .stCode pre {
+            background-color: #f4f5f7;
+        }
+        
+        h1 {
+            font-size: 44px !important;
+            font-weight: 300 !important;
+            font-family: "Tiempos" !important;
+        }
+        
+        h2 {
+            font-size: 30px !important;
+            font-weight: 300 !important;
+            font-family: "Tiempos" !important;
+        }
+        
+        h3 {
+            font-size: 22px !important;
+            font-weight: 300 !important;
+            font-family: "Tiempos" !important;
+        }
+        
+        [data-testid="stMetricValue"] {
+            font-size: 40px !important;
+            font-weight: 300 !important;
+            font-family: "Tiempos" !important;
+        }
+        </style>
+        """
+    )
 
 
 def page1():

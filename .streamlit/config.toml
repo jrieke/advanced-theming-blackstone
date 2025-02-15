@@ -14,9 +14,41 @@ borderColor = "#CBCED7"
 showBorderAroundInputs = true
 roundness = 0
 font = "GuardianSans"
+baseFontSize = 16
+
+
+[[theme.fontFaces]]
+url = "app/static/guardian-sans/GuardianSansLight.otf"
+family = "GuardianSans"
+weight = 300
 
 [[theme.fontFaces]]
 url = "app/static/guardian-sans/GuardianSansRegular.otf"
 family = "GuardianSans"
-style = "normal"
+weight = 400
+
+[[theme.fontFaces]]
+url = "app/static/guardian-sans/GuardianSansMedium.otf"
+family = "GuardianSans"
+weight = 500
+
+[[theme.fontFaces]]
+url = "app/static/guardian-sans/GuardianSansSemibold.otf"
+family = "GuardianSans"
+weight = 600
+
+[[theme.fontFaces]]
+url = "app/static/guardian-sans/GuardianSansBold.otf"
+family = "GuardianSans"
+weight = 700
+
+
+[[theme.fontFaces]]
+url = "app/static/Sanomat Web Regular Regular.ttf"
+family = "Sanomat"
+
+[[theme.fontFaces]]
+url = "app/static/tiempos/TestTiemposFine-Light-BF66457a5102792.otf"
+family = "Tiempos"
+weight = 300
 
