@@ -47,8 +47,34 @@ weight = 700
 url = "app/static/Sanomat Web Regular Regular.ttf"
 family = "Sanomat"
 
+
 [[theme.fontFaces]]
-url = "app/static/tiempos/TestTiemposFine-Light-BF66457a5102792.otf"
+url = "static/tiempos/TestTiemposFine-Light.otf"
 family = "Tiempos"
 weight = 300
 
+
+[[theme.fontFaces]]
+url = "static/tiempos/TestTiemposFine-Regular.otf"
+family = "Tiempos"
+weight = 400
+
+[[theme.fontFaces]]
+url = "static/tiempos/TestTiemposFine-Medium.otf"
+family = "Tiempos"
+weight = 500
+
+[[theme.fontFaces]]
+url = "static/tiempos/TestTiemposFine-Semibold.otf"
+family = "Tiempos"
+weight = 600
+
+[[theme.fontFaces]]
+url = "static/tiempos/TestTiemposFine-Bold.otf"
+family = "Tiempos"
+weight = 700
+
+[[theme.fontFaces]]
+url = "static/tiempos/TestTiemposFine-Black.otf"
+family = "Tiempos"
+weight = 900
