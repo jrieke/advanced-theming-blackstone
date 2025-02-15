@@ -44,8 +44,40 @@ weight = 700
 
 
 [[theme.fontFaces]]
-url = "app/static/Sanomat Web Regular Regular.ttf"
+url = "app/static/Sanomat_Family/Sanomat-Light-Trial.otf"
 family = "Sanomat"
+weight = 300
+
+[[theme.fontFaces]]
+url = "app/static/Sanomat_Family/Sanomat-Regular-Trial.otf"
+family = "Sanomat"
+weight = 400
+
+[[theme.fontFaces]]
+url = "app/static/Sanomat_Family/Sanomat-Medium-Trial.otf"
+family = "Sanomat"
+weight = 500
+
+[[theme.fontFaces]]
+url = "app/static/Sanomat_Family/Sanomat-Semibold-Trial.otf"
+family = "Sanomat"
+weight = 600
+
+[[theme.fontFaces]]
+url = "app/static/Sanomat_Family/Sanomat-Bold-Trial.otf"
+family = "Sanomat"
+weight = 700
+
+[[theme.fontFaces]]
+url = "app/static/Sanomat_Family/Sanomat-Extrabold-Trial.otf"
+family = "Sanomat"
+weight = 800
+
+[[theme.fontFaces]]
+url = "app/static/Sanomat_Family/Sanomat-Black-Trial.otf"
+family = "Sanomat"
+weight = 900
+
 
 
 [[theme.fontFaces]]

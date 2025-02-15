@@ -33,25 +33,25 @@ if st.checkbox("Enable CSS hacks", True):
         h1 {
             font-size: 44px !important;
             font-weight: 300 !important;
-            font-family: "Tiempos" !important;
+            font-family: "Sanomat" !important;
         }
         
         h2 {
             font-size: 30px !important;
             font-weight: 300 !important;
-            font-family: "Tiempos" !important;
+            font-family: "Sanomat" !important;
         }
         
         h3 {
             font-size: 22px !important;
             font-weight: 300 !important;
-            font-family: "Tiempos" !important;
+            font-family: "Sanomat" !important;
         }
         
         [data-testid="stMetricValue"] {
             font-size: 40px !important;
             font-weight: 300 !important;
-            font-family: "Tiempos" !important;
+            font-family: "Sanomat" !important;
         }
         </style>
         """
