@@ -13,46 +13,59 @@ st.logo("https://upload.wikimedia.org/wikipedia/commons/5/5b/The_Blackstone_Grou
 st.title("Blackstone theme")
 
 if st.checkbox("Enable CSS hacks", True):
+    fontWeight = "300"
+    codeBackgroundColor = "#f4f5f7"
+    
+    headingFont = "Sanomat"
+    titleFontSize = "44px"
+    titleFontWeight = "300"
+    headerFontSize = "30px"
+    headerFontWeight = "300"
+    subheaderFontSize = "22px"
+    subheaderFontWeight = "300"
+    
+    metricFontSize = "40px"
+    metricFontWeight = "300"
+    
     st.html(
-        """
+        f"""
         <style>
         
         /* Could be done via a better image, don't need CSS/theming */
-        .stLogo {
+        .stLogo {{
             border: 1px solid #ffffff;
-        }
+        }}
         
-        p, .stText, .stSelectbox div, .stMultiSelect div, .stMultiSelect span, .stDateInput input, .stTimeInput div, .stTextInput input, .stTextArea textarea, .stFileUploader, .stFileUploader button {
-            font-weight: 300 !important;
-        }
+        p, .stText, .stSelectbox div, .stMultiSelect div, .stMultiSelect span, .stDateInput input, .stTimeInput div, .stTextInput input, .stTextArea textarea, .stFileUploader, .stFileUploader button {{
+            font-weight: {fontWeight} !important;
+        }}
         
-        .stCode pre {
-            background-color: #f4f5f7;
-        }
+        .stCode pre {{
+            background-color: {codeBackgroundColor} !important;
+        }}
         
-        h1 {
-            font-size: 44px !important;
-            font-weight: 300 !important;
-            font-family: "Sanomat" !important;
-        }
+        h1 {{
+            font-size: {titleFontSize} !important;
+            font-weight: {titleFontWeight} !important;
+            font-family: "{headingFont}" !important;
+        }}
         
-        h2 {
-            font-size: 30px !important;
-            font-weight: 300 !important;
-            font-family: "Sanomat" !important;
-        }
+        h2 {{
+            font-size: {headerFontSize} !important;
+            font-weight: {headerFontWeight} !important;
+            font-family: "{headingFont}" !important;
+        }}
         
-        h3 {
-            font-size: 22px !important;
-            font-weight: 300 !important;
-            font-family: "Sanomat" !important;
-        }
+        h3 {{
+            font-size: {subheaderFontSize} !important;
+            font-weight: {subheaderFontWeight} !important;
+            font-family: "{headingFont}" !important;
+        }}
         
-        [data-testid="stMetricValue"] {
-            font-size: 40px !important;
-            font-weight: 300 !important;
-            font-family: "Sanomat" !important;
-        }
+        [data-testid="stMetricValue"] {{
+            font-size: {metricFontSize} !important;
+            font-weight: {metricFontWeight} !important;
+        }}
         </style>
         """
     )
