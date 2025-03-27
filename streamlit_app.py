@@ -14,7 +14,6 @@ st.title("Blackstone theme")
 
 if st.checkbox("Enable CSS hacks", True):
     fontWeight = "300"
-    codeBackgroundColor = "#f4f5f7"
     
     headingFont = "Sanomat"
     titleFontSize = "44px"
@@ -38,10 +37,6 @@ if st.checkbox("Enable CSS hacks", True):
         
         p, .stText, .stSelectbox div, .stMultiSelect div, .stMultiSelect span, .stDateInput input, .stTimeInput div, .stTextInput input, .stTextArea textarea, .stFileUploader, .stFileUploader button {{
             font-weight: {fontWeight} !important;
-        }}
-        
-        .stCode pre {{
-            background-color: {codeBackgroundColor} !important;
         }}
         
         h1 {{

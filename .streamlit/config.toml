@@ -5,16 +5,20 @@ enableStaticServing = true
 primaryColor = "#000000"
 backgroundColor = "#ffffff"
 secondaryBackgroundColor = "#ffffff"
-sidebarBackgroundColor = "#000000"
-sidebarSecondaryBackgroundColor = "#000000"
-sidebarTextColor = "#ffffff"
 textColor = "#000000"
 linkColor = "#000000"
 borderColor = "#CBCED7"
-showBorderAroundInputs = true
-roundness = 0
+showWidgetBorder = true
+baseRadius = "none"
 font = "GuardianSans"
 baseFontSize = 16
+codeBackgroundColor = "#f4f5f7"
+
+[theme.sidebar]
+backgroundColor = "#000000"
+secondaryBackgroundColor = "#000000"
+textColor = "#ffffff"
+borderColor = "#55565b"
 
 
 [[theme.fontFaces]]
