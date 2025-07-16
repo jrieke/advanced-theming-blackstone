@@ -12,58 +12,18 @@ st.set_page_config("Blackstone theme", "◼️")
 st.logo("https://upload.wikimedia.org/wikipedia/commons/5/5b/The_Blackstone_Group_logo_%282%29.svg", size="large")
 st.title("Blackstone theme")
 
-if st.checkbox("Enable CSS hacks", True):
-    fontWeight = "300"
+st.html(
+    f"""
+    <style>
     
-    headingFont = "Sanomat"
-    titleFontSize = "44px"
-    titleFontWeight = "300"
-    headerFontSize = "30px"
-    headerFontWeight = "300"
-    subheaderFontSize = "22px"
-    subheaderFontWeight = "300"
+    /* Could be done via a better image, don't need CSS/theming */
+    .stLogo {{
+        border: 1px solid #ffffff;
+    }}
     
-    metricFontSize = "40px"
-    metricFontWeight = "300"
-    
-    st.html(
-        f"""
-        <style>
-        
-        /* Could be done via a better image, don't need CSS/theming */
-        .stLogo {{
-            border: 1px solid #ffffff;
-        }}
-        
-        p, .stText, .stSelectbox div, .stMultiSelect div, .stMultiSelect span, .stDateInput input, .stTimeInput div, .stTextInput input, .stTextArea textarea, .stFileUploader, .stFileUploader button {{
-            font-weight: {fontWeight} !important;
-        }}
-        
-        h1 {{
-            font-size: {titleFontSize} !important;
-            font-weight: {titleFontWeight} !important;
-            font-family: "{headingFont}" !important;
-        }}
-        
-        h2 {{
-            font-size: {headerFontSize} !important;
-            font-weight: {headerFontWeight} !important;
-            font-family: "{headingFont}" !important;
-        }}
-        
-        h3 {{
-            font-size: {subheaderFontSize} !important;
-            font-weight: {subheaderFontWeight} !important;
-            font-family: "{headingFont}" !important;
-        }}
-        
-        [data-testid="stMetricValue"] {{
-            font-size: {metricFontSize} !important;
-            font-weight: {metricFontWeight} !important;
-        }}
-        </style>
-        """
-    )
+    </style>
+    """
+)
 
 
 

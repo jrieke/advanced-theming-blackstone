@@ -13,6 +13,10 @@ baseRadius = "none"
 font = "GuardianSans"
 baseFontSize = 16
 codeBackgroundColor = "#f4f5f7"
+baseFontWeight = 300
+headingFont = "Sanomat"
+headingFontSizes = ["44px", "30px", "22px"]
+headingFontWeights = 300
 
 [theme.sidebar]
 backgroundColor = "#000000"
